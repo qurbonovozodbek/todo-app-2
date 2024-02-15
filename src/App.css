@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #EA5959;
+  ;
+}
+.container {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  background: white;
+  backdrop-filter: blur(10px);
+  padding: 20px 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(76, 76, 75);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.60);
+}
+.container h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:black;
+  margin-bottom: 15px;
+}
+.container input {
+  z-index: 1;
+  background: #F3F3F3;
+  padding: 8px;
+  border-radius: 20px;
+  outline: none;
+  margin-right: 10px;
+  color: black;
+}
+::placeholder {
+  color: black;
+}
+#form button {
+  z-index: 1;
+  background: #F3F3F3;
+  padding: 8px;
+  border-radius: 20px;
+  color: black;
+  margin-left: 10px;
+}
+#form button:hover {
+  cursor: pointer;
+}
+#form {
+  margin-bottom: 40px;
+}
+.card {
+  width: 318px;
+  padding: 16px 16px 8px;
+  background:  #F3F3F3;
+  border-radius: 20px;
+}
+.card h4 {
+  width: 286px;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 00.1), rgba(255, 255, 255, 0));
+  padding: 10px 10px;
+  margin-bottom: 8px;
+}
+.card button {
+  background: white;
+  padding: 4px 12px;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  float: right;
+  margin-top: -3px;
+}
+.card button:hover {
+  cursor: pointer;
+}
+::selection {
+  background-color: rgb(34, 34, 34);
+}
+/* .bganime {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  filter: blur(1px);
+  animation: animBack 4s linear infinite;
+  z-index: 2;
+}
+@keyframes animBack {
+  0% {
+    top: -10px;
+  }
+  100%{
+    top: 190px;
+  }
+} */
